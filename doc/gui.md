@@ -98,6 +98,12 @@ elif path in list:
 
 参考了某搜索引擎上AI给出的答案，关键词好像是"python fixed length list"之类的。
 
+# 模式切换
+
+在写某个功能时最好将其封装成一个函数，这样在更改模块时会省事不少。
+
+[CTkSegmentedButton](https://customtkinter.tomschimansky.com/documentation/widgets/segmentedbutton)
+
 # 键盘输入
 
 [Tkinter 如何使用Tkinter库在Python中检测键盘输入](https://deepinout.com/tkinter/tkinter-questions/315_tkinter_detect_key_input_in_python.html)
@@ -107,6 +113,8 @@ elif path in list:
 [CTkTextbox](https://customtkinter.tomschimansky.com/documentation/widgets/textbox)
 
 # 关闭脚本
+
+如果条目正在打印，实际上共享队列中已经有很多数据了，所以关闭后文本框还会输出，需要同时清空队列。
 
 [multiprocessing.Process.terminate](https://docs.python.org/3/library/multiprocessing.html#multiprocessing.Process.terminate)
 
